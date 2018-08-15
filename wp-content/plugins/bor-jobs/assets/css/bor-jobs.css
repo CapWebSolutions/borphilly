@@ -1,0 +1,93 @@
+/* #  Jobs
+---------------------------------------------------------------------------------------------------- */
+
+.alignright.job-image {
+	border: 4px solid #fff;
+	border-radius: 50%;
+	box-shadow: 0 0 6px #888;
+	display: block;
+	margin-left: 20px;
+	overflow: hidden;
+}
+
+article.job-entry .job-wrap > span > img {
+	border-radius: 50%;
+	display: block;
+	height: auto;
+	margin-left: 5px;
+	width: 100%;
+}
+
+
+.job-wrap blockquote {
+	margin: 0;
+	overflow: hidden;
+}
+
+.job-wrap > h2.job-title {
+	margin-bottom: 0;
+}
+
+.job-wrap > .job-classification {
+  font-weight: normal;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  text-transform: none;
+}
+
+.job-wrap > .job-company,
+.job-wrap > .job-location {
+	color: #abadb0;
+	display: block;
+	padding-left: 18px;
+}
+
+/* .jobs > div:last-child {
+	display: none;
+} */
+
+.job-wrap {
+	display: block !important;
+}
+
+.job p,
+.job p:last-of-type {
+	padding: 10px 0 10px 20px;
+}
+.job-contact p {
+	margin-bottom: 10px;
+}
+.job-expires p {
+	margin-bottom: 10px;
+	border: #888 solid 2px;
+}
+p.job-expired {
+	margin-bottom: 10px;
+	/* border: #888 solid 2px; */
+	color: red;
+	font-size: larger;
+}
+.job p::before {
+		/* content: "\201C"; */
+		display: block;
+		font-size: 30px;
+		font-size: 3rem;
+		height: 0;
+		left: -20px;
+		position: relative;
+		top: -10px;
+	}
+
+.job-wrap > .listing-item {
+	margin: 15px;
+	padding: 10px;
+	border: #666 solid 1px;
+	background-color: lightgray;
+}
+
+article.job h1,
+article.job h2 {
+	border-top: lightgray solid 1px;
+	padding-top: 5px;
+	margin-bottom: 5px;
+}
