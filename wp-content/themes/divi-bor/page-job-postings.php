@@ -73,7 +73,9 @@ $query = new WP_Query( $args );
 
 				</article> <!-- .et_pb_post -->
 
-			<?php } ?>
+			<?php 
+			} else echo '<br><h2>No Active Job Posts<h2><br>'; 
+			?>
 
 			<?php wp_reset_postdata(); ?>
 
