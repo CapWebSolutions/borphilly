@@ -27,10 +27,6 @@ function bor_meta_boxes( $meta_boxes ) {
 			'messages' => array( $prefix . 'expiration_date' => array( 'min' => 'Expiration date must be in the future.', ),
 			)
 		),
-		// 'query_args' => array(
-		// 	'post_status' => array ( 'draft', 'publish', ),
-		// 	$prefix . 'expiration_date',
-		// ),
 		'fields'     => array(
 			array(
 				'name' => __( 'Contact Name', 'bor-jobs' ),
@@ -64,19 +60,7 @@ function bor_meta_boxes( $meta_boxes ) {
 				'desc' => __( 'The date this job posting will expire.<br>Date Format <strong>yyyy-mm-dd</strong>', 'bor-jobs' ),
 				'admin_columns' => 'after title',
 			),
-			// array(
-			// 	'name' => esc_html__( 'Use Excerpt?', 'bor-jobs' ),
-			// 	'id'   => $prefix . 'use_excerpt',
-			// 	'type' => 'checkbox',
-			// 	'desc' => __( 'Select to use excerpt. Leave blank to auto create excerpt from Post Detail above.', 'bor-jobs' ),
 
-			// ),
-			// array(
-			// 	'name' => __( 'Job Post Excerpt', 'bor-jobs' ),
-			// 	'id'   => 'post_excerpt',
-			// 	'type' => 'textarea',
-			// 	'desc' => __( 'Crafted excerpt of Job Post to show on <a href="/job-postings/" target="_blank">archive page</a>. Limit to 55 words. Text only. No HTML or formatting.', 'bor-jobs' ),
-			// ),
 		),
 	);
 

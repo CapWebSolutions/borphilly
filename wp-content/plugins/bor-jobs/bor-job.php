@@ -19,7 +19,6 @@
 require_once dirname( __FILE__ ) . '/bor-jobs-example.php';
 require_once dirname( __FILE__ ) . '/post-types.php';
 require_once dirname( __FILE__ ) . '/meta-boxes.php';  // meta box sample.
-require_once dirname( __FILE__ ) . '/taxonomies.php';
 require_once dirname( __FILE__ ) . '/helper-functions.php';
 
 add_action( 'wp_enqueue_scripts', 'load_jobs_style_sheet' );
